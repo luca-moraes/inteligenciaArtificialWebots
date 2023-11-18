@@ -94,7 +94,7 @@ const double *getPosicao(WbNodeRef node) {
 }
 
 bool comparePositions(const double *p1, const double *p2) {
-   const double EPSILON = 0.001;
+   const double EPSILON = 0.01;
 
     return fabs(p1[0] - p2[0]) < EPSILON && 
            fabs(p1[1] - p2[1]) < EPSILON && 
