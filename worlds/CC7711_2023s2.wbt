@@ -1,4 +1,10 @@
-#VRML_SIM R2022a utf8
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/CircleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+
 WorldInfo {
 }
 Viewpoint {
@@ -98,6 +104,6 @@ E-puck {
   hidden rotation_2 0 1 0 2.86057882697793
   translation 0.0273111 -0.00286222 -0.000144089
   rotation 1.96146e-09 5.23418e-10 -1 0.512275
-  controller "Controller_caixas"
+  controller "ControllerBuscaCaixaLeve"
   supervisor TRUE
 }
